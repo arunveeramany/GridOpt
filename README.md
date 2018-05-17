@@ -1,2 +1,2 @@
 # GridOpt
-ARPA-e GO
+ARPAe Grid Optimization 

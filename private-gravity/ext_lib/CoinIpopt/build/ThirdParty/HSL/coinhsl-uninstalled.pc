@@ -1,0 +1,10 @@
+prefix=/home/hlh/CoinIpopt/build
+libdir=/home/hlh/CoinIpopt/build/ThirdParty/HSL
+
+Name: HSL
+Description: Harwell Subroutines Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.5
+Cflags: -I/home/hlh/CoinIpopt/ThirdParty/HSL -I/home/hlh/CoinIpopt/build/ThirdParty/HSL
+Libs: ${libdir}/libcoinhsl.la -llapack -lblas   -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. -lgfortran -lm -lquadmath
+Requires: coinmetis 

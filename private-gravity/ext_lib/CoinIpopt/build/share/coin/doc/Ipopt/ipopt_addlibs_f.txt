@@ -1,0 +1,1 @@
+          -L/home/hlh/CoinIpopt/build/lib -lipopt -ldl -lcoinhsl -llapack -lblas -lcoinmetis             -lstdc++ -lm
