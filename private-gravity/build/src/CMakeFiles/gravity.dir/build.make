@@ -43,10 +43,10 @@ RM = /projects/opt/centos7/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hlh/private-gravity
+CMAKE_SOURCE_DIR = /home/hlh/GridOpt/private-gravity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hlh/private-gravity/build
+CMAKE_BINARY_DIR = /home/hlh/GridOpt/private-gravity/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/gravity.dir/depend.make
@@ -59,172 +59,172 @@ include src/CMakeFiles/gravity.dir/flags.make
 
 src/CMakeFiles/gravity.dir/Arc.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/Arc.cpp.o: ../src/Arc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/gravity.dir/Arc.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Arc.cpp.o -c /home/hlh/private-gravity/src/Arc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/gravity.dir/Arc.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Arc.cpp.o -c /home/hlh/GridOpt/private-gravity/src/Arc.cpp
 
 src/CMakeFiles/gravity.dir/Arc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/Arc.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/Arc.cpp > CMakeFiles/gravity.dir/Arc.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/Arc.cpp > CMakeFiles/gravity.dir/Arc.cpp.i
 
 src/CMakeFiles/gravity.dir/Arc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/Arc.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/Arc.cpp -o CMakeFiles/gravity.dir/Arc.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/Arc.cpp -o CMakeFiles/gravity.dir/Arc.cpp.s
 
 src/CMakeFiles/gravity.dir/IpoptProgram.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/IpoptProgram.cpp.o: ../src/IpoptProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/gravity.dir/IpoptProgram.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/IpoptProgram.cpp.o -c /home/hlh/private-gravity/src/IpoptProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/gravity.dir/IpoptProgram.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/IpoptProgram.cpp.o -c /home/hlh/GridOpt/private-gravity/src/IpoptProgram.cpp
 
 src/CMakeFiles/gravity.dir/IpoptProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/IpoptProgram.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/IpoptProgram.cpp > CMakeFiles/gravity.dir/IpoptProgram.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/IpoptProgram.cpp > CMakeFiles/gravity.dir/IpoptProgram.cpp.i
 
 src/CMakeFiles/gravity.dir/IpoptProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/IpoptProgram.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/IpoptProgram.cpp -o CMakeFiles/gravity.dir/IpoptProgram.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/IpoptProgram.cpp -o CMakeFiles/gravity.dir/IpoptProgram.cpp.s
 
 src/CMakeFiles/gravity.dir/Net.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/Net.cpp.o: ../src/Net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/gravity.dir/Net.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Net.cpp.o -c /home/hlh/private-gravity/src/Net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/gravity.dir/Net.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Net.cpp.o -c /home/hlh/GridOpt/private-gravity/src/Net.cpp
 
 src/CMakeFiles/gravity.dir/Net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/Net.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/Net.cpp > CMakeFiles/gravity.dir/Net.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/Net.cpp > CMakeFiles/gravity.dir/Net.cpp.i
 
 src/CMakeFiles/gravity.dir/Net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/Net.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/Net.cpp -o CMakeFiles/gravity.dir/Net.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/Net.cpp -o CMakeFiles/gravity.dir/Net.cpp.s
 
 src/CMakeFiles/gravity.dir/Node.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/Node.cpp.o: ../src/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/gravity.dir/Node.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Node.cpp.o -c /home/hlh/private-gravity/src/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/gravity.dir/Node.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Node.cpp.o -c /home/hlh/GridOpt/private-gravity/src/Node.cpp
 
 src/CMakeFiles/gravity.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/Node.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/Node.cpp > CMakeFiles/gravity.dir/Node.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/Node.cpp > CMakeFiles/gravity.dir/Node.cpp.i
 
 src/CMakeFiles/gravity.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/Node.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/Node.cpp -o CMakeFiles/gravity.dir/Node.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/Node.cpp -o CMakeFiles/gravity.dir/Node.cpp.s
 
 src/CMakeFiles/gravity.dir/Path.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/Path.cpp.o: ../src/Path.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/gravity.dir/Path.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Path.cpp.o -c /home/hlh/private-gravity/src/Path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/gravity.dir/Path.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/Path.cpp.o -c /home/hlh/GridOpt/private-gravity/src/Path.cpp
 
 src/CMakeFiles/gravity.dir/Path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/Path.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/Path.cpp > CMakeFiles/gravity.dir/Path.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/Path.cpp > CMakeFiles/gravity.dir/Path.cpp.i
 
 src/CMakeFiles/gravity.dir/Path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/Path.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/Path.cpp -o CMakeFiles/gravity.dir/Path.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/Path.cpp -o CMakeFiles/gravity.dir/Path.cpp.s
 
 src/CMakeFiles/gravity.dir/constant.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/constant.cpp.o: ../src/constant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/gravity.dir/constant.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/constant.cpp.o -c /home/hlh/private-gravity/src/constant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/gravity.dir/constant.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/constant.cpp.o -c /home/hlh/GridOpt/private-gravity/src/constant.cpp
 
 src/CMakeFiles/gravity.dir/constant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/constant.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/constant.cpp > CMakeFiles/gravity.dir/constant.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/constant.cpp > CMakeFiles/gravity.dir/constant.cpp.i
 
 src/CMakeFiles/gravity.dir/constant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/constant.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/constant.cpp -o CMakeFiles/gravity.dir/constant.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/constant.cpp -o CMakeFiles/gravity.dir/constant.cpp.s
 
 src/CMakeFiles/gravity.dir/constraint.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/constraint.cpp.o: ../src/constraint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/gravity.dir/constraint.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/constraint.cpp.o -c /home/hlh/private-gravity/src/constraint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/gravity.dir/constraint.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/constraint.cpp.o -c /home/hlh/GridOpt/private-gravity/src/constraint.cpp
 
 src/CMakeFiles/gravity.dir/constraint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/constraint.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/constraint.cpp > CMakeFiles/gravity.dir/constraint.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/constraint.cpp > CMakeFiles/gravity.dir/constraint.cpp.i
 
 src/CMakeFiles/gravity.dir/constraint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/constraint.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/constraint.cpp -o CMakeFiles/gravity.dir/constraint.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/constraint.cpp -o CMakeFiles/gravity.dir/constraint.cpp.s
 
 src/CMakeFiles/gravity.dir/func.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/func.cpp.o: ../src/func.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/gravity.dir/func.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/func.cpp.o -c /home/hlh/private-gravity/src/func.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/gravity.dir/func.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/func.cpp.o -c /home/hlh/GridOpt/private-gravity/src/func.cpp
 
 src/CMakeFiles/gravity.dir/func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/func.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/func.cpp > CMakeFiles/gravity.dir/func.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/func.cpp > CMakeFiles/gravity.dir/func.cpp.i
 
 src/CMakeFiles/gravity.dir/func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/func.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/func.cpp -o CMakeFiles/gravity.dir/func.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/func.cpp -o CMakeFiles/gravity.dir/func.cpp.s
 
 src/CMakeFiles/gravity.dir/model.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/model.cpp.o: ../src/model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/gravity.dir/model.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/model.cpp.o -c /home/hlh/private-gravity/src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/gravity.dir/model.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/model.cpp.o -c /home/hlh/GridOpt/private-gravity/src/model.cpp
 
 src/CMakeFiles/gravity.dir/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/model.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/model.cpp > CMakeFiles/gravity.dir/model.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/model.cpp > CMakeFiles/gravity.dir/model.cpp.i
 
 src/CMakeFiles/gravity.dir/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/model.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/model.cpp -o CMakeFiles/gravity.dir/model.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/model.cpp -o CMakeFiles/gravity.dir/model.cpp.s
 
 src/CMakeFiles/gravity.dir/param.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/param.cpp.o: ../src/param.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/gravity.dir/param.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/param.cpp.o -c /home/hlh/private-gravity/src/param.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/gravity.dir/param.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/param.cpp.o -c /home/hlh/GridOpt/private-gravity/src/param.cpp
 
 src/CMakeFiles/gravity.dir/param.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/param.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/param.cpp > CMakeFiles/gravity.dir/param.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/param.cpp > CMakeFiles/gravity.dir/param.cpp.i
 
 src/CMakeFiles/gravity.dir/param.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/param.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/param.cpp -o CMakeFiles/gravity.dir/param.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/param.cpp -o CMakeFiles/gravity.dir/param.cpp.s
 
 src/CMakeFiles/gravity.dir/solver.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/solver.cpp.o: ../src/solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/gravity.dir/solver.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/solver.cpp.o -c /home/hlh/private-gravity/src/solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/gravity.dir/solver.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/solver.cpp.o -c /home/hlh/GridOpt/private-gravity/src/solver.cpp
 
 src/CMakeFiles/gravity.dir/solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/solver.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/solver.cpp > CMakeFiles/gravity.dir/solver.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/solver.cpp > CMakeFiles/gravity.dir/solver.cpp.i
 
 src/CMakeFiles/gravity.dir/solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/solver.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/solver.cpp -o CMakeFiles/gravity.dir/solver.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/solver.cpp -o CMakeFiles/gravity.dir/solver.cpp.s
 
 src/CMakeFiles/gravity.dir/utils.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/gravity.dir/utils.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/utils.cpp.o -c /home/hlh/private-gravity/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/gravity.dir/utils.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/utils.cpp.o -c /home/hlh/GridOpt/private-gravity/src/utils.cpp
 
 src/CMakeFiles/gravity.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/utils.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/utils.cpp > CMakeFiles/gravity.dir/utils.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/utils.cpp > CMakeFiles/gravity.dir/utils.cpp.i
 
 src/CMakeFiles/gravity.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/utils.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/utils.cpp -o CMakeFiles/gravity.dir/utils.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/utils.cpp -o CMakeFiles/gravity.dir/utils.cpp.s
 
 src/CMakeFiles/gravity.dir/var.cpp.o: src/CMakeFiles/gravity.dir/flags.make
 src/CMakeFiles/gravity.dir/var.cpp.o: ../src/var.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/gravity.dir/var.cpp.o"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/var.cpp.o -c /home/hlh/private-gravity/src/var.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/gravity.dir/var.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gravity.dir/var.cpp.o -c /home/hlh/GridOpt/private-gravity/src/var.cpp
 
 src/CMakeFiles/gravity.dir/var.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gravity.dir/var.cpp.i"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/src/var.cpp > CMakeFiles/gravity.dir/var.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/src/var.cpp > CMakeFiles/gravity.dir/var.cpp.i
 
 src/CMakeFiles/gravity.dir/var.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gravity.dir/var.cpp.s"
-	cd /home/hlh/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/src/var.cpp -o CMakeFiles/gravity.dir/var.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/src/var.cpp -o CMakeFiles/gravity.dir/var.cpp.s
 
 # Object files for target gravity
 gravity_OBJECTS = \
@@ -260,9 +260,9 @@ gravity_EXTERNAL_OBJECTS =
 ../lib/libgravity.a: src/CMakeFiles/gravity.dir/var.cpp.o
 ../lib/libgravity.a: src/CMakeFiles/gravity.dir/build.make
 ../lib/libgravity.a: src/CMakeFiles/gravity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library ../../lib/libgravity.a"
-	cd /home/hlh/private-gravity/build/src && $(CMAKE_COMMAND) -P CMakeFiles/gravity.dir/cmake_clean_target.cmake
-	cd /home/hlh/private-gravity/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gravity.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library ../../lib/libgravity.a"
+	cd /home/hlh/GridOpt/private-gravity/build/src && $(CMAKE_COMMAND) -P CMakeFiles/gravity.dir/cmake_clean_target.cmake
+	cd /home/hlh/GridOpt/private-gravity/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gravity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/gravity.dir/build: ../lib/libgravity.a
@@ -270,10 +270,10 @@ src/CMakeFiles/gravity.dir/build: ../lib/libgravity.a
 .PHONY : src/CMakeFiles/gravity.dir/build
 
 src/CMakeFiles/gravity.dir/clean:
-	cd /home/hlh/private-gravity/build/src && $(CMAKE_COMMAND) -P CMakeFiles/gravity.dir/cmake_clean.cmake
+	cd /home/hlh/GridOpt/private-gravity/build/src && $(CMAKE_COMMAND) -P CMakeFiles/gravity.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/gravity.dir/clean
 
 src/CMakeFiles/gravity.dir/depend:
-	cd /home/hlh/private-gravity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlh/private-gravity /home/hlh/private-gravity/src /home/hlh/private-gravity/build /home/hlh/private-gravity/build/src /home/hlh/private-gravity/build/src/CMakeFiles/gravity.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hlh/GridOpt/private-gravity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlh/GridOpt/private-gravity /home/hlh/GridOpt/private-gravity/src /home/hlh/GridOpt/private-gravity/build /home/hlh/GridOpt/private-gravity/build/src /home/hlh/GridOpt/private-gravity/build/src/CMakeFiles/gravity.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/gravity.dir/depend
 

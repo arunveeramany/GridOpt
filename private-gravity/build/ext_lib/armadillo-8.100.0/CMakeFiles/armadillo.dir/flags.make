@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -O2 -fPIC
 
 CXX_DEFINES = -DUSE_IPOPT -Darmadillo_EXPORTS
 
-CXX_INCLUDES = -I/home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin/.. -I/home/hlh/private-gravity/ext_lib/armadillo-8.100.0 -I/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/include 
+CXX_INCLUDES = -I/home/hlh/GridOpt/private-gravity/ext_lib/CoinIpopt/build/include/coin/.. -I/home/hlh/GridOpt/private-gravity/ext_lib/armadillo-8.100.0 -I/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/include 
 

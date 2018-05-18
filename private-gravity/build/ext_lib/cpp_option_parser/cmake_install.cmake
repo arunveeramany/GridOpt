@@ -1,4 +1,4 @@
-# Install script for directory: /home/hlh/private-gravity/ext_lib/cpp_option_parser
+# Install script for directory: /home/hlh/GridOpt/private-gravity/ext_lib/cpp_option_parser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

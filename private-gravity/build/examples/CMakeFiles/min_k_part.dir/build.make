@@ -43,10 +43,10 @@ RM = /projects/opt/centos7/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hlh/private-gravity
+CMAKE_SOURCE_DIR = /home/hlh/GridOpt/private-gravity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hlh/private-gravity/build
+CMAKE_BINARY_DIR = /home/hlh/GridOpt/private-gravity/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/min_k_part.dir/depend.make
@@ -59,29 +59,29 @@ include examples/CMakeFiles/min_k_part.dir/flags.make
 
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o: examples/CMakeFiles/min_k_part.dir/flags.make
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o: ../examples/MILP/MinKPart/MinkPart_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o -c /home/hlh/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o -c /home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp
 
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.i"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp > CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp > CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.i
 
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.s"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp -o CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp -o CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.s
 
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o: examples/CMakeFiles/min_k_part.dir/flags.make
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o: ../examples/MILP/MinKPart/Minkmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o -c /home/hlh/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o -c /home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp
 
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.i"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp > CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp > CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.i
 
 examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.s"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp -o CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp -o CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.s
 
 # Object files for target min_k_part
 min_k_part_OBJECTS = \
@@ -97,8 +97,8 @@ min_k_part_EXTERNAL_OBJECTS =
 ../bin/min_k_part: ../lib/libgravity.a
 ../bin/min_k_part: ../ext_lib/CoinIpopt/build/lib/libipopt.so
 ../bin/min_k_part: examples/CMakeFiles/min_k_part.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/min_k_part"
-	cd /home/hlh/private-gravity/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/min_k_part.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/min_k_part"
+	cd /home/hlh/GridOpt/private-gravity/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/min_k_part.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/min_k_part.dir/build: ../bin/min_k_part
@@ -106,10 +106,10 @@ examples/CMakeFiles/min_k_part.dir/build: ../bin/min_k_part
 .PHONY : examples/CMakeFiles/min_k_part.dir/build
 
 examples/CMakeFiles/min_k_part.dir/clean:
-	cd /home/hlh/private-gravity/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/min_k_part.dir/cmake_clean.cmake
+	cd /home/hlh/GridOpt/private-gravity/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/min_k_part.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/min_k_part.dir/clean
 
 examples/CMakeFiles/min_k_part.dir/depend:
-	cd /home/hlh/private-gravity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlh/private-gravity /home/hlh/private-gravity/examples /home/hlh/private-gravity/build /home/hlh/private-gravity/build/examples /home/hlh/private-gravity/build/examples/CMakeFiles/min_k_part.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hlh/GridOpt/private-gravity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlh/GridOpt/private-gravity /home/hlh/GridOpt/private-gravity/examples /home/hlh/GridOpt/private-gravity/build /home/hlh/GridOpt/private-gravity/build/examples /home/hlh/GridOpt/private-gravity/build/examples/CMakeFiles/min_k_part.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/min_k_part.dir/depend
 

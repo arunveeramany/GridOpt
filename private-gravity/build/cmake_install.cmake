@@ -1,4 +1,4 @@
-# Install script for directory: /home/hlh/private-gravity
+# Install script for directory: /home/hlh/GridOpt/private-gravity
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,15 +38,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gravity" TYPE FILE FILES "/home/hlh/private-gravity/build/PowerToolsConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gravity" TYPE FILE FILES "/home/hlh/GridOpt/private-gravity/build/PowerToolsConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/cmake_install.cmake")
-  include("/home/hlh/private-gravity/build/ext_lib/cpp_option_parser/cmake_install.cmake")
-  include("/home/hlh/private-gravity/build/src/cmake_install.cmake")
-  include("/home/hlh/private-gravity/build/examples/cmake_install.cmake")
+  include("/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/cmake_install.cmake")
+  include("/home/hlh/GridOpt/private-gravity/build/ext_lib/cpp_option_parser/cmake_install.cmake")
+  include("/home/hlh/GridOpt/private-gravity/build/src/cmake_install.cmake")
+  include("/home/hlh/GridOpt/private-gravity/build/examples/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hlh/private-gravity/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hlh/GridOpt/private-gravity/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

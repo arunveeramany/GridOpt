@@ -5,11 +5,11 @@
 #  ARMADILLO_LIBRARIES    - libraries to link against
 
 # Tell the user project where to find our headers and libraries
-set(ARMADILLO_INCLUDE_DIRS "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/include")
-set(ARMADILLO_LIBRARY_DIRS "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0")
+set(ARMADILLO_INCLUDE_DIRS "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/include")
+set(ARMADILLO_LIBRARY_DIRS "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0")
 
 # Our library dependencies (contains definitions for IMPORTED targets)
-include("/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/ArmadilloLibraryDepends.cmake")
+include("/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/ArmadilloLibraryDepends.cmake")
 
 # These are IMPORTED targets created by ArmadilloLibraryDepends.cmake
 set(ARMADILLO_LIBRARIES armadillo)

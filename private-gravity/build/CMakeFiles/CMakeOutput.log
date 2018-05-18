@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/hlh/private-gravity/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/hlh/GridOpt/private-gravity/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/hlh/private-gravity/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/hlh/GridOpt/private-gravity/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1ab2c/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1ab2c.dir/build.make CMakeFiles/cmTC_1ab2c.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1ab2c.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1ab2c.dir/testCCompiler.c.o   -c /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1ab2c
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab2c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1ab2c.dir/testCCompiler.c.o  -o cmTC_1ab2c 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_959b6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_959b6.dir/build.make CMakeFiles/cmTC_959b6.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_959b6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_959b6.dir/testCCompiler.c.o   -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_959b6
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_959b6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_959b6.dir/testCCompiler.c.o  -o cmTC_959b6 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f1cad/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f1cad.dir/build.make CMakeFiles/cmTC_f1cad.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o   -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f1cad
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1cad.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o  -o cmTC_f1cad 
+Run Build Command:"/usr/bin/gmake" "cmTC_ba006/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ba006.dir/build.make CMakeFiles/cmTC_ba006.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o   -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ba006
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba006.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o  -o cmTC_ba006 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1cad' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1cad /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba006' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ba006 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_f1cad/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_f1cad.dir/build.make CMakeFiles/cmTC_f1cad.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o   -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f1cad]
-  ignore line: [/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1cad.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o  -o cmTC_f1cad ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_ba006/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_ba006.dir/build.make CMakeFiles/cmTC_ba006.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o   -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ba006]
+  ignore line: [/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba006.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o  -o cmTC_ba006 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f1cad' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1cad /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ba006' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ba006 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f1cad] ==> ignore
+    arg [cmTC_ba006] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_f1cad.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ba006.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -132,17 +132,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5a655/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_5a655.dir/build.make CMakeFiles/cmTC_5a655.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5a655.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5a655.dir/feature_tests.c.o   -c /home/hlh/private-gravity/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5a655
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a655.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5a655.dir/feature_tests.c.o  -o cmTC_5a655 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_798d5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_798d5.dir/build.make CMakeFiles/cmTC_798d5.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_798d5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_798d5.dir/feature_tests.c.o   -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_798d5
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_798d5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_798d5.dir/feature_tests.c.o  -o cmTC_798d5 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +152,17 @@ gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c4e54/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c4e54.dir/build.make CMakeFiles/cmTC_c4e54.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c4e54.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c4e54.dir/feature_tests.c.o   -c /home/hlh/private-gravity/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c4e54
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4e54.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c4e54.dir/feature_tests.c.o  -o cmTC_c4e54 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_f9d9e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f9d9e.dir/build.make CMakeFiles/cmTC_f9d9e.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9d9e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_f9d9e.dir/feature_tests.c.o   -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9d9e
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d9e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f9d9e.dir/feature_tests.c.o  -o cmTC_f9d9e 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +172,17 @@ gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_61a74/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_61a74.dir/build.make CMakeFiles/cmTC_61a74.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_61a74.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_61a74.dir/feature_tests.c.o   -c /home/hlh/private-gravity/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_61a74
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a74.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_61a74.dir/feature_tests.c.o  -o cmTC_61a74 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_142fc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_142fc.dir/build.make CMakeFiles/cmTC_142fc.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_142fc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_142fc.dir/feature_tests.c.o   -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_142fc
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_142fc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_142fc.dir/feature_tests.c.o  -o cmTC_142fc 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -190,30 +190,30 @@ gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_da218/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_da218.dir/build.make CMakeFiles/cmTC_da218.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_da218.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_da218.dir/testCXXCompiler.cxx.o -c /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_da218
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da218.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_da218.dir/testCXXCompiler.cxx.o  -o cmTC_da218 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_37dbd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_37dbd.dir/build.make CMakeFiles/cmTC_37dbd.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37dbd.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_37dbd.dir/testCXXCompiler.cxx.o -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_37dbd
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37dbd.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_37dbd.dir/testCXXCompiler.cxx.o  -o cmTC_37dbd 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7a328/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7a328.dir/build.make CMakeFiles/cmTC_7a328.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7a328
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a328.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7a328 
+Run Build Command:"/usr/bin/gmake" "cmTC_a59ca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a59ca.dir/build.make CMakeFiles/cmTC_a59ca.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a59ca
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a59ca.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a59ca 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -223,23 +223,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7a328' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7a328 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a59ca' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a59ca /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_7a328/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7a328.dir/build.make CMakeFiles/cmTC_7a328.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7a328]
-  ignore line: [/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a328.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7a328 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a59ca/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a59ca.dir/build.make CMakeFiles/cmTC_a59ca.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o -c /projects/opt/centos7/cmake/3.11.1/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a59ca]
+  ignore line: [/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a59ca.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a59ca ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -249,8 +249,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7a328' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7a328 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a59ca' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a59ca /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -262,7 +262,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7a328] ==> ignore
+    arg [cmTC_a59ca] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -271,7 +271,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_7a328.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a59ca.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -294,17 +294,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_98cf2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_98cf2.dir/build.make CMakeFiles/cmTC_98cf2.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_98cf2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_98cf2.dir/feature_tests.cxx.o -c /home/hlh/private-gravity/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_98cf2
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98cf2.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_98cf2.dir/feature_tests.cxx.o  -o cmTC_98cf2 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_50b84/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_50b84.dir/build.make CMakeFiles/cmTC_50b84.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50b84.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_50b84.dir/feature_tests.cxx.o -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_50b84
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b84.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_50b84.dir/feature_tests.cxx.o  -o cmTC_50b84 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -367,17 +367,17 @@ gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1271e/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1271e.dir/build.make CMakeFiles/cmTC_1271e.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1271e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1271e.dir/feature_tests.cxx.o -c /home/hlh/private-gravity/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1271e
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1271e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1271e.dir/feature_tests.cxx.o  -o cmTC_1271e 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_8373c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8373c.dir/build.make CMakeFiles/cmTC_8373c.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8373c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8373c.dir/feature_tests.cxx.o -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8373c
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8373c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8373c.dir/feature_tests.cxx.o  -o cmTC_8373c 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -440,17 +440,17 @@ gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/hlh/private-gravity/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5b5e6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_5b5e6.dir/build.make CMakeFiles/cmTC_5b5e6.dir/build
-gmake[1]: Entering directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5b5e6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5b5e6.dir/feature_tests.cxx.o -c /home/hlh/private-gravity/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5b5e6
-/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b5e6.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5b5e6.dir/feature_tests.cxx.o  -o cmTC_5b5e6 
-gmake[1]: Leaving directory `/home/hlh/private-gravity/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_28b91/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_28b91.dir/build.make CMakeFiles/cmTC_28b91.dir/build
+gmake[1]: Entering directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28b91.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_28b91.dir/feature_tests.cxx.o -c /home/hlh/GridOpt/private-gravity/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_28b91
+/projects/opt/centos7/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b91.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_28b91.dir/feature_tests.cxx.o  -o cmTC_28b91 
+gmake[1]: Leaving directory `/home/hlh/GridOpt/private-gravity/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

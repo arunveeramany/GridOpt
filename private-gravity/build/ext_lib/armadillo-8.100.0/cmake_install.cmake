@@ -1,4 +1,4 @@
-# Install script for directory: /home/hlh/private-gravity/ext_lib/armadillo-8.100.0
+# Install script for directory: /home/hlh/GridOpt/private-gravity/ext_lib/armadillo-8.100.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/include/" REGEX "/\\.svn$" EXCLUDE REGEX "/[^/]*\\.cmake$" EXCLUDE REGEX "/[^/]*\\~$" EXCLUDE REGEX "/[^/]*orig$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/include/" REGEX "/\\.svn$" EXCLUDE REGEX "/[^/]*\\.cmake$" EXCLUDE REGEX "/[^/]*\\~$" EXCLUDE REGEX "/[^/]*orig$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,9 +55,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE SHARED_LIBRARY FILES
-    "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/libarmadillo.so.8.100.0"
-    "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/libarmadillo.so.8"
-    "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/libarmadillo.so"
+    "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/libarmadillo.so.8.100.0"
+    "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/libarmadillo.so.8"
+    "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/libarmadillo.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/libarmadillo.so.8.100.0"
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake"
-         "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/CMakeFiles/Export/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
+         "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/CMakeFiles/Export/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake/ArmadilloLibraryDepends-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -86,9 +86,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake" TYPE FILE FILES "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/CMakeFiles/Export/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake" TYPE FILE FILES "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/CMakeFiles/Export/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake" TYPE FILE FILES "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/CMakeFiles/Export/share/Armadillo/CMake/ArmadilloLibraryDepends-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Armadillo/CMake" TYPE FILE FILES "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/CMakeFiles/Export/share/Armadillo/CMake/ArmadilloLibraryDepends-noconfig.cmake")
   endif()
 endif()
 
@@ -102,12 +102,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/share/Armadillo/CMake" TYPE FILE FILES
-    "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/InstallFiles/ArmadilloConfig.cmake"
-    "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/InstallFiles/ArmadilloConfigVersion.cmake"
+    "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/InstallFiles/ArmadilloConfig.cmake"
+    "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/InstallFiles/ArmadilloConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/hlh/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/misc/armadillo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/hlh/GridOpt/private-gravity/build/ext_lib/armadillo-8.100.0/tmp/misc/armadillo.pc")
 endif()
 

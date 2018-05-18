@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hlh/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp" "/home/hlh/private-gravity/build/examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o"
-  "/home/hlh/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp" "/home/hlh/private-gravity/build/examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o"
+  "/home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/MinkPart_main.cpp" "/home/hlh/GridOpt/private-gravity/build/examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o"
+  "/home/hlh/GridOpt/private-gravity/examples/MILP/MinKPart/Minkmodel.cpp" "/home/hlh/GridOpt/private-gravity/build/examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hlh/private-gravity/build/src/CMakeFiles/gravity.dir/DependInfo.cmake"
+  "/home/hlh/GridOpt/private-gravity/build/src/CMakeFiles/gravity.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

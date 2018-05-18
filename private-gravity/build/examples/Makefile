@@ -48,10 +48,10 @@ RM = /projects/opt/centos7/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hlh/private-gravity
+CMAKE_SOURCE_DIR = /home/hlh/GridOpt/private-gravity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hlh/private-gravity/build
+CMAKE_BINARY_DIR = /home/hlh/GridOpt/private-gravity/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hlh/private-gravity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hlh/private-gravity/build/CMakeFiles /home/hlh/private-gravity/build/examples/CMakeFiles/progress.marks
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hlh/private-gravity/build/CMakeFiles 0
+	cd /home/hlh/GridOpt/private-gravity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hlh/GridOpt/private-gravity/build/CMakeFiles /home/hlh/GridOpt/private-gravity/build/examples/CMakeFiles/progress.marks
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hlh/GridOpt/private-gravity/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hlh/private-gravity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hlh/GridOpt/private-gravity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/microgid.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/microgid.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/microgid.dir/rule
 .PHONY : examples/CMakeFiles/microgid.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ microgid: examples/CMakeFiles/microgid.dir/rule
 
 # fast build rule for target.
 microgid/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/build
 .PHONY : microgid/fast
 
 # Convenience name for target.
 examples/CMakeFiles/gravity101.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/gravity101.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/gravity101.dir/rule
 .PHONY : examples/CMakeFiles/gravity101.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ gravity101: examples/CMakeFiles/gravity101.dir/rule
 
 # fast build rule for target.
 gravity101/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/build
 .PHONY : gravity101/fast
 
 # Convenience name for target.
 examples/CMakeFiles/neuralnet.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/neuralnet.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/neuralnet.dir/rule
 .PHONY : examples/CMakeFiles/neuralnet.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ neuralnet: examples/CMakeFiles/neuralnet.dir/rule
 
 # fast build rule for target.
 neuralnet/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/build
 .PHONY : neuralnet/fast
 
 # Convenience name for target.
 examples/CMakeFiles/svm.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/svm.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/svm.dir/rule
 .PHONY : examples/CMakeFiles/svm.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ svm: examples/CMakeFiles/svm.dir/rule
 
 # fast build rule for target.
 svm/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/build
 .PHONY : svm/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ising.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ising.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ising.dir/rule
 .PHONY : examples/CMakeFiles/ising.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ ising: examples/CMakeFiles/ising.dir/rule
 
 # fast build rule for target.
 ising/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/build
 .PHONY : ising/fast
 
 # Convenience name for target.
 examples/CMakeFiles/min_k_part.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/min_k_part.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/min_k_part.dir/rule
 .PHONY : examples/CMakeFiles/min_k_part.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ min_k_part: examples/CMakeFiles/min_k_part.dir/rule
 
 # fast build rule for target.
 min_k_part/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/build
 .PHONY : min_k_part/fast
 
 # Convenience name for target.
 examples/CMakeFiles/stable_set.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/stable_set.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/stable_set.dir/rule
 .PHONY : examples/CMakeFiles/stable_set.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ stable_set: examples/CMakeFiles/stable_set.dir/rule
 
 # fast build rule for target.
 stable_set/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/build
 .PHONY : stable_set/fast
 
 # Convenience name for target.
 examples/CMakeFiles/acopf.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/acopf.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/acopf.dir/rule
 .PHONY : examples/CMakeFiles/acopf.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ acopf: examples/CMakeFiles/acopf.dir/rule
 
 # fast build rule for target.
 acopf/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/build
 .PHONY : acopf/fast
 
 # Convenience name for target.
 examples/CMakeFiles/MyCpp1.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/MyCpp1.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/MyCpp1.dir/rule
 .PHONY : examples/CMakeFiles/MyCpp1.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ MyCpp1: examples/CMakeFiles/MyCpp1.dir/rule
 
 # fast build rule for target.
 MyCpp1/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/build
 .PHONY : MyCpp1/fast
 
 # Convenience name for target.
 examples/CMakeFiles/socopf.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/socopf.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/socopf.dir/rule
 .PHONY : examples/CMakeFiles/socopf.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ socopf: examples/CMakeFiles/socopf.dir/rule
 
 # fast build rule for target.
 socopf/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/build
 .PHONY : socopf/fast
 
 # Convenience name for target.
 examples/CMakeFiles/dcopf.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/dcopf.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/dcopf.dir/rule
 .PHONY : examples/CMakeFiles/dcopf.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ dcopf: examples/CMakeFiles/dcopf.dir/rule
 
 # fast build rule for target.
 dcopf/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/build
 .PHONY : dcopf/fast
 
 # Convenience name for target.
 examples/CMakeFiles/sdpopf.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/sdpopf.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/sdpopf.dir/rule
 .PHONY : examples/CMakeFiles/sdpopf.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ sdpopf: examples/CMakeFiles/sdpopf.dir/rule
 
 # fast build rule for target.
 sdpopf/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/build
 .PHONY : sdpopf/fast
 
 # Convenience name for target.
 examples/CMakeFiles/acuc.dir/rule:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/acuc.dir/rule
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/acuc.dir/rule
 .PHONY : examples/CMakeFiles/acuc.dir/rule
 
 # Convenience name for target.
@@ -348,7 +348,7 @@ acuc: examples/CMakeFiles/acuc.dir/rule
 
 # fast build rule for target.
 acuc/fast:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/build
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/build
 .PHONY : acuc/fast
 
 Classification/DataSet.o: Classification/DataSet.cpp.o
@@ -357,8 +357,8 @@ Classification/DataSet.o: Classification/DataSet.cpp.o
 
 # target to build an object file
 Classification/DataSet.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/DataSet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/DataSet.cpp.o
 .PHONY : Classification/DataSet.cpp.o
 
 Classification/DataSet.i: Classification/DataSet.cpp.i
@@ -367,8 +367,8 @@ Classification/DataSet.i: Classification/DataSet.cpp.i
 
 # target to preprocess a source file
 Classification/DataSet.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/DataSet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/DataSet.cpp.i
 .PHONY : Classification/DataSet.cpp.i
 
 Classification/DataSet.s: Classification/DataSet.cpp.s
@@ -377,8 +377,8 @@ Classification/DataSet.s: Classification/DataSet.cpp.s
 
 # target to generate assembly for a file
 Classification/DataSet.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/DataSet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/DataSet.cpp.s
 .PHONY : Classification/DataSet.cpp.s
 
 Classification/NeuralNet/NeuralNet_main.o: Classification/NeuralNet/NeuralNet_main.cpp.o
@@ -387,7 +387,7 @@ Classification/NeuralNet/NeuralNet_main.o: Classification/NeuralNet/NeuralNet_ma
 
 # target to build an object file
 Classification/NeuralNet/NeuralNet_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o
 .PHONY : Classification/NeuralNet/NeuralNet_main.cpp.o
 
 Classification/NeuralNet/NeuralNet_main.i: Classification/NeuralNet/NeuralNet_main.cpp.i
@@ -396,7 +396,7 @@ Classification/NeuralNet/NeuralNet_main.i: Classification/NeuralNet/NeuralNet_ma
 
 # target to preprocess a source file
 Classification/NeuralNet/NeuralNet_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.i
 .PHONY : Classification/NeuralNet/NeuralNet_main.cpp.i
 
 Classification/NeuralNet/NeuralNet_main.s: Classification/NeuralNet/NeuralNet_main.cpp.s
@@ -405,7 +405,7 @@ Classification/NeuralNet/NeuralNet_main.s: Classification/NeuralNet/NeuralNet_ma
 
 # target to generate assembly for a file
 Classification/NeuralNet/NeuralNet_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/neuralnet.dir/build.make examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.s
 .PHONY : Classification/NeuralNet/NeuralNet_main.cpp.s
 
 Classification/SVM/SVM_main.o: Classification/SVM/SVM_main.cpp.o
@@ -414,7 +414,7 @@ Classification/SVM/SVM_main.o: Classification/SVM/SVM_main.cpp.o
 
 # target to build an object file
 Classification/SVM/SVM_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/SVM/SVM_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/SVM/SVM_main.cpp.o
 .PHONY : Classification/SVM/SVM_main.cpp.o
 
 Classification/SVM/SVM_main.i: Classification/SVM/SVM_main.cpp.i
@@ -423,7 +423,7 @@ Classification/SVM/SVM_main.i: Classification/SVM/SVM_main.cpp.i
 
 # target to preprocess a source file
 Classification/SVM/SVM_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/SVM/SVM_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/SVM/SVM_main.cpp.i
 .PHONY : Classification/SVM/SVM_main.cpp.i
 
 Classification/SVM/SVM_main.s: Classification/SVM/SVM_main.cpp.s
@@ -432,7 +432,7 @@ Classification/SVM/SVM_main.s: Classification/SVM/SVM_main.cpp.s
 
 # target to generate assembly for a file
 Classification/SVM/SVM_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/SVM/SVM_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/svm.dir/build.make examples/CMakeFiles/svm.dir/Classification/SVM/SVM_main.cpp.s
 .PHONY : Classification/SVM/SVM_main.cpp.s
 
 Gravity101_main.o: Gravity101_main.cpp.o
@@ -441,7 +441,7 @@ Gravity101_main.o: Gravity101_main.cpp.o
 
 # target to build an object file
 Gravity101_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.o
 .PHONY : Gravity101_main.cpp.o
 
 Gravity101_main.i: Gravity101_main.cpp.i
@@ -450,7 +450,7 @@ Gravity101_main.i: Gravity101_main.cpp.i
 
 # target to preprocess a source file
 Gravity101_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.i
 .PHONY : Gravity101_main.cpp.i
 
 Gravity101_main.s: Gravity101_main.cpp.s
@@ -459,7 +459,7 @@ Gravity101_main.s: Gravity101_main.cpp.s
 
 # target to generate assembly for a file
 Gravity101_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/gravity101.dir/build.make examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.s
 .PHONY : Gravity101_main.cpp.s
 
 LP/Power/DCOPF/DCOPF_main.o: LP/Power/DCOPF/DCOPF_main.cpp.o
@@ -468,7 +468,7 @@ LP/Power/DCOPF/DCOPF_main.o: LP/Power/DCOPF/DCOPF_main.cpp.o
 
 # target to build an object file
 LP/Power/DCOPF/DCOPF_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/LP/Power/DCOPF/DCOPF_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/LP/Power/DCOPF/DCOPF_main.cpp.o
 .PHONY : LP/Power/DCOPF/DCOPF_main.cpp.o
 
 LP/Power/DCOPF/DCOPF_main.i: LP/Power/DCOPF/DCOPF_main.cpp.i
@@ -477,7 +477,7 @@ LP/Power/DCOPF/DCOPF_main.i: LP/Power/DCOPF/DCOPF_main.cpp.i
 
 # target to preprocess a source file
 LP/Power/DCOPF/DCOPF_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/LP/Power/DCOPF/DCOPF_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/LP/Power/DCOPF/DCOPF_main.cpp.i
 .PHONY : LP/Power/DCOPF/DCOPF_main.cpp.i
 
 LP/Power/DCOPF/DCOPF_main.s: LP/Power/DCOPF/DCOPF_main.cpp.s
@@ -486,7 +486,7 @@ LP/Power/DCOPF/DCOPF_main.s: LP/Power/DCOPF/DCOPF_main.cpp.s
 
 # target to generate assembly for a file
 LP/Power/DCOPF/DCOPF_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/LP/Power/DCOPF/DCOPF_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/LP/Power/DCOPF/DCOPF_main.cpp.s
 .PHONY : LP/Power/DCOPF/DCOPF_main.cpp.s
 
 MILP/MinKPart/MinkPart_main.o: MILP/MinKPart/MinkPart_main.cpp.o
@@ -495,7 +495,7 @@ MILP/MinKPart/MinkPart_main.o: MILP/MinKPart/MinkPart_main.cpp.o
 
 # target to build an object file
 MILP/MinKPart/MinkPart_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.o
 .PHONY : MILP/MinKPart/MinkPart_main.cpp.o
 
 MILP/MinKPart/MinkPart_main.i: MILP/MinKPart/MinkPart_main.cpp.i
@@ -504,7 +504,7 @@ MILP/MinKPart/MinkPart_main.i: MILP/MinKPart/MinkPart_main.cpp.i
 
 # target to preprocess a source file
 MILP/MinKPart/MinkPart_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.i
 .PHONY : MILP/MinKPart/MinkPart_main.cpp.i
 
 MILP/MinKPart/MinkPart_main.s: MILP/MinKPart/MinkPart_main.cpp.s
@@ -513,7 +513,7 @@ MILP/MinKPart/MinkPart_main.s: MILP/MinKPart/MinkPart_main.cpp.s
 
 # target to generate assembly for a file
 MILP/MinKPart/MinkPart_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/MinkPart_main.cpp.s
 .PHONY : MILP/MinKPart/MinkPart_main.cpp.s
 
 MILP/MinKPart/Minkmodel.o: MILP/MinKPart/Minkmodel.cpp.o
@@ -522,7 +522,7 @@ MILP/MinKPart/Minkmodel.o: MILP/MinKPart/Minkmodel.cpp.o
 
 # target to build an object file
 MILP/MinKPart/Minkmodel.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.o
 .PHONY : MILP/MinKPart/Minkmodel.cpp.o
 
 MILP/MinKPart/Minkmodel.i: MILP/MinKPart/Minkmodel.cpp.i
@@ -531,7 +531,7 @@ MILP/MinKPart/Minkmodel.i: MILP/MinKPart/Minkmodel.cpp.i
 
 # target to preprocess a source file
 MILP/MinKPart/Minkmodel.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.i
 .PHONY : MILP/MinKPart/Minkmodel.cpp.i
 
 MILP/MinKPart/Minkmodel.s: MILP/MinKPart/Minkmodel.cpp.s
@@ -540,7 +540,7 @@ MILP/MinKPart/Minkmodel.s: MILP/MinKPart/Minkmodel.cpp.s
 
 # target to generate assembly for a file
 MILP/MinKPart/Minkmodel.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/min_k_part.dir/build.make examples/CMakeFiles/min_k_part.dir/MILP/MinKPart/Minkmodel.cpp.s
 .PHONY : MILP/MinKPart/Minkmodel.cpp.s
 
 MILP/StableSet/Stable_Set_main.o: MILP/StableSet/Stable_Set_main.cpp.o
@@ -549,7 +549,7 @@ MILP/StableSet/Stable_Set_main.o: MILP/StableSet/Stable_Set_main.cpp.o
 
 # target to build an object file
 MILP/StableSet/Stable_Set_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/MILP/StableSet/Stable_Set_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/MILP/StableSet/Stable_Set_main.cpp.o
 .PHONY : MILP/StableSet/Stable_Set_main.cpp.o
 
 MILP/StableSet/Stable_Set_main.i: MILP/StableSet/Stable_Set_main.cpp.i
@@ -558,7 +558,7 @@ MILP/StableSet/Stable_Set_main.i: MILP/StableSet/Stable_Set_main.cpp.i
 
 # target to preprocess a source file
 MILP/StableSet/Stable_Set_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/MILP/StableSet/Stable_Set_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/MILP/StableSet/Stable_Set_main.cpp.i
 .PHONY : MILP/StableSet/Stable_Set_main.cpp.i
 
 MILP/StableSet/Stable_Set_main.s: MILP/StableSet/Stable_Set_main.cpp.s
@@ -567,7 +567,7 @@ MILP/StableSet/Stable_Set_main.s: MILP/StableSet/Stable_Set_main.cpp.s
 
 # target to generate assembly for a file
 MILP/StableSet/Stable_Set_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/MILP/StableSet/Stable_Set_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/stable_set.dir/build.make examples/CMakeFiles/stable_set.dir/MILP/StableSet/Stable_Set_main.cpp.s
 .PHONY : MILP/StableSet/Stable_Set_main.cpp.s
 
 MINLP/Power/ACOPF/ACOPF_main.o: MINLP/Power/ACOPF/ACOPF_main.cpp.o
@@ -576,7 +576,7 @@ MINLP/Power/ACOPF/ACOPF_main.o: MINLP/Power/ACOPF/ACOPF_main.cpp.o
 
 # target to build an object file
 MINLP/Power/ACOPF/ACOPF_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/ACOPF/ACOPF_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/ACOPF/ACOPF_main.cpp.o
 .PHONY : MINLP/Power/ACOPF/ACOPF_main.cpp.o
 
 MINLP/Power/ACOPF/ACOPF_main.i: MINLP/Power/ACOPF/ACOPF_main.cpp.i
@@ -585,7 +585,7 @@ MINLP/Power/ACOPF/ACOPF_main.i: MINLP/Power/ACOPF/ACOPF_main.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/ACOPF/ACOPF_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/ACOPF/ACOPF_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/ACOPF/ACOPF_main.cpp.i
 .PHONY : MINLP/Power/ACOPF/ACOPF_main.cpp.i
 
 MINLP/Power/ACOPF/ACOPF_main.s: MINLP/Power/ACOPF/ACOPF_main.cpp.s
@@ -594,7 +594,7 @@ MINLP/Power/ACOPF/ACOPF_main.s: MINLP/Power/ACOPF/ACOPF_main.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/ACOPF/ACOPF_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/ACOPF/ACOPF_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/ACOPF/ACOPF_main.cpp.s
 .PHONY : MINLP/Power/ACOPF/ACOPF_main.cpp.s
 
 MINLP/Power/ACUC/ACUC_main.o: MINLP/Power/ACUC/ACUC_main.cpp.o
@@ -603,7 +603,7 @@ MINLP/Power/ACUC/ACUC_main.o: MINLP/Power/ACUC/ACUC_main.cpp.o
 
 # target to build an object file
 MINLP/Power/ACUC/ACUC_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/ACUC/ACUC_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/ACUC/ACUC_main.cpp.o
 .PHONY : MINLP/Power/ACUC/ACUC_main.cpp.o
 
 MINLP/Power/ACUC/ACUC_main.i: MINLP/Power/ACUC/ACUC_main.cpp.i
@@ -612,7 +612,7 @@ MINLP/Power/ACUC/ACUC_main.i: MINLP/Power/ACUC/ACUC_main.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/ACUC/ACUC_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/ACUC/ACUC_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/ACUC/ACUC_main.cpp.i
 .PHONY : MINLP/Power/ACUC/ACUC_main.cpp.i
 
 MINLP/Power/ACUC/ACUC_main.s: MINLP/Power/ACUC/ACUC_main.cpp.s
@@ -621,7 +621,7 @@ MINLP/Power/ACUC/ACUC_main.s: MINLP/Power/ACUC/ACUC_main.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/ACUC/ACUC_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/ACUC/ACUC_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/ACUC/ACUC_main.cpp.s
 .PHONY : MINLP/Power/ACUC/ACUC_main.cpp.s
 
 MINLP/Power/Bound.o: MINLP/Power/Bound.cpp.o
@@ -630,13 +630,13 @@ MINLP/Power/Bound.o: MINLP/Power/Bound.cpp.o
 
 # target to build an object file
 MINLP/Power/Bound.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bound.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bound.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bound.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bound.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bound.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bound.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bound.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bound.cpp.o
 .PHONY : MINLP/Power/Bound.cpp.o
 
 MINLP/Power/Bound.i: MINLP/Power/Bound.cpp.i
@@ -645,13 +645,13 @@ MINLP/Power/Bound.i: MINLP/Power/Bound.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/Bound.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bound.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bound.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bound.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bound.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bound.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bound.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bound.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bound.cpp.i
 .PHONY : MINLP/Power/Bound.cpp.i
 
 MINLP/Power/Bound.s: MINLP/Power/Bound.cpp.s
@@ -660,13 +660,13 @@ MINLP/Power/Bound.s: MINLP/Power/Bound.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/Bound.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bound.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bound.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bound.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bound.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bound.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bound.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bound.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bound.cpp.s
 .PHONY : MINLP/Power/Bound.cpp.s
 
 MINLP/Power/Bus.o: MINLP/Power/Bus.cpp.o
@@ -675,13 +675,13 @@ MINLP/Power/Bus.o: MINLP/Power/Bus.cpp.o
 
 # target to build an object file
 MINLP/Power/Bus.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bus.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bus.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bus.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bus.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bus.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bus.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bus.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bus.cpp.o
 .PHONY : MINLP/Power/Bus.cpp.o
 
 MINLP/Power/Bus.i: MINLP/Power/Bus.cpp.i
@@ -690,13 +690,13 @@ MINLP/Power/Bus.i: MINLP/Power/Bus.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/Bus.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bus.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bus.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bus.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bus.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bus.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bus.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bus.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bus.cpp.i
 .PHONY : MINLP/Power/Bus.cpp.i
 
 MINLP/Power/Bus.s: MINLP/Power/Bus.cpp.s
@@ -705,13 +705,13 @@ MINLP/Power/Bus.s: MINLP/Power/Bus.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/Bus.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bus.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bus.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bus.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bus.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bus.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bus.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Bus.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Bus.cpp.s
 .PHONY : MINLP/Power/Bus.cpp.s
 
 MINLP/Power/Conductor.o: MINLP/Power/Conductor.cpp.o
@@ -720,13 +720,13 @@ MINLP/Power/Conductor.o: MINLP/Power/Conductor.cpp.o
 
 # target to build an object file
 MINLP/Power/Conductor.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Conductor.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Conductor.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Conductor.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Conductor.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Conductor.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Conductor.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Conductor.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Conductor.cpp.o
 .PHONY : MINLP/Power/Conductor.cpp.o
 
 MINLP/Power/Conductor.i: MINLP/Power/Conductor.cpp.i
@@ -735,13 +735,13 @@ MINLP/Power/Conductor.i: MINLP/Power/Conductor.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/Conductor.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Conductor.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Conductor.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Conductor.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Conductor.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Conductor.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Conductor.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Conductor.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Conductor.cpp.i
 .PHONY : MINLP/Power/Conductor.cpp.i
 
 MINLP/Power/Conductor.s: MINLP/Power/Conductor.cpp.s
@@ -750,13 +750,13 @@ MINLP/Power/Conductor.s: MINLP/Power/Conductor.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/Conductor.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Conductor.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Conductor.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Conductor.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Conductor.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Conductor.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Conductor.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Conductor.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Conductor.cpp.s
 .PHONY : MINLP/Power/Conductor.cpp.s
 
 MINLP/Power/Gen.o: MINLP/Power/Gen.cpp.o
@@ -765,13 +765,13 @@ MINLP/Power/Gen.o: MINLP/Power/Gen.cpp.o
 
 # target to build an object file
 MINLP/Power/Gen.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Gen.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Gen.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Gen.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Gen.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Gen.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Gen.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Gen.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Gen.cpp.o
 .PHONY : MINLP/Power/Gen.cpp.o
 
 MINLP/Power/Gen.i: MINLP/Power/Gen.cpp.i
@@ -780,13 +780,13 @@ MINLP/Power/Gen.i: MINLP/Power/Gen.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/Gen.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Gen.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Gen.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Gen.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Gen.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Gen.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Gen.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Gen.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Gen.cpp.i
 .PHONY : MINLP/Power/Gen.cpp.i
 
 MINLP/Power/Gen.s: MINLP/Power/Gen.cpp.s
@@ -795,13 +795,13 @@ MINLP/Power/Gen.s: MINLP/Power/Gen.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/Gen.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Gen.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Gen.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Gen.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Gen.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Gen.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Gen.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Gen.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Gen.cpp.s
 .PHONY : MINLP/Power/Gen.cpp.s
 
 MINLP/Power/Line.o: MINLP/Power/Line.cpp.o
@@ -810,13 +810,13 @@ MINLP/Power/Line.o: MINLP/Power/Line.cpp.o
 
 # target to build an object file
 MINLP/Power/Line.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Line.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Line.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Line.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Line.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Line.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Line.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Line.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Line.cpp.o
 .PHONY : MINLP/Power/Line.cpp.o
 
 MINLP/Power/Line.i: MINLP/Power/Line.cpp.i
@@ -825,13 +825,13 @@ MINLP/Power/Line.i: MINLP/Power/Line.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/Line.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Line.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Line.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Line.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Line.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Line.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Line.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Line.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Line.cpp.i
 .PHONY : MINLP/Power/Line.cpp.i
 
 MINLP/Power/Line.s: MINLP/Power/Line.cpp.s
@@ -840,13 +840,13 @@ MINLP/Power/Line.s: MINLP/Power/Line.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/Line.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Line.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Line.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Line.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Line.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Line.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Line.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/Line.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/Line.cpp.s
 .PHONY : MINLP/Power/Line.cpp.s
 
 MINLP/Power/N-1_OPF/N-1_opf_main.o: MINLP/Power/N-1_OPF/N-1_opf_main.cpp.o
@@ -855,7 +855,7 @@ MINLP/Power/N-1_OPF/N-1_opf_main.o: MINLP/Power/N-1_OPF/N-1_opf_main.cpp.o
 
 # target to build an object file
 MINLP/Power/N-1_OPF/N-1_opf_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/N-1_OPF/N-1_opf_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/N-1_OPF/N-1_opf_main.cpp.o
 .PHONY : MINLP/Power/N-1_OPF/N-1_opf_main.cpp.o
 
 MINLP/Power/N-1_OPF/N-1_opf_main.i: MINLP/Power/N-1_OPF/N-1_opf_main.cpp.i
@@ -864,7 +864,7 @@ MINLP/Power/N-1_OPF/N-1_opf_main.i: MINLP/Power/N-1_OPF/N-1_opf_main.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/N-1_OPF/N-1_opf_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/N-1_OPF/N-1_opf_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/N-1_OPF/N-1_opf_main.cpp.i
 .PHONY : MINLP/Power/N-1_OPF/N-1_opf_main.cpp.i
 
 MINLP/Power/N-1_OPF/N-1_opf_main.s: MINLP/Power/N-1_OPF/N-1_opf_main.cpp.s
@@ -873,7 +873,7 @@ MINLP/Power/N-1_OPF/N-1_opf_main.s: MINLP/Power/N-1_OPF/N-1_opf_main.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/N-1_OPF/N-1_opf_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/N-1_OPF/N-1_opf_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/N-1_OPF/N-1_opf_main.cpp.s
 .PHONY : MINLP/Power/N-1_OPF/N-1_opf_main.cpp.s
 
 MINLP/Power/PowerNet.o: MINLP/Power/PowerNet.cpp.o
@@ -882,13 +882,13 @@ MINLP/Power/PowerNet.o: MINLP/Power/PowerNet.cpp.o
 
 # target to build an object file
 MINLP/Power/PowerNet.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/PowerNet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/PowerNet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/PowerNet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/PowerNet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/PowerNet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/PowerNet.cpp.o
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/PowerNet.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/PowerNet.cpp.o
 .PHONY : MINLP/Power/PowerNet.cpp.o
 
 MINLP/Power/PowerNet.i: MINLP/Power/PowerNet.cpp.i
@@ -897,13 +897,13 @@ MINLP/Power/PowerNet.i: MINLP/Power/PowerNet.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/PowerNet.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/PowerNet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/PowerNet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/PowerNet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/PowerNet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/PowerNet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/PowerNet.cpp.i
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/PowerNet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/PowerNet.cpp.i
 .PHONY : MINLP/Power/PowerNet.cpp.i
 
 MINLP/Power/PowerNet.s: MINLP/Power/PowerNet.cpp.s
@@ -912,13 +912,13 @@ MINLP/Power/PowerNet.s: MINLP/Power/PowerNet.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/PowerNet.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/PowerNet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/PowerNet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/PowerNet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/PowerNet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/PowerNet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/PowerNet.cpp.s
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/microgid.dir/build.make examples/CMakeFiles/microgid.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acopf.dir/build.make examples/CMakeFiles/acopf.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/MyCpp1.dir/build.make examples/CMakeFiles/MyCpp1.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/dcopf.dir/build.make examples/CMakeFiles/dcopf.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/PowerNet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/acuc.dir/build.make examples/CMakeFiles/acuc.dir/MINLP/Power/PowerNet.cpp.s
 .PHONY : MINLP/Power/PowerNet.cpp.s
 
 MINLP/Power/SDPOPF/Bag.o: MINLP/Power/SDPOPF/Bag.cpp.o
@@ -927,7 +927,7 @@ MINLP/Power/SDPOPF/Bag.o: MINLP/Power/SDPOPF/Bag.cpp.o
 
 # target to build an object file
 MINLP/Power/SDPOPF/Bag.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/Bag.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/Bag.cpp.o
 .PHONY : MINLP/Power/SDPOPF/Bag.cpp.o
 
 MINLP/Power/SDPOPF/Bag.i: MINLP/Power/SDPOPF/Bag.cpp.i
@@ -936,7 +936,7 @@ MINLP/Power/SDPOPF/Bag.i: MINLP/Power/SDPOPF/Bag.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/SDPOPF/Bag.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/Bag.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/Bag.cpp.i
 .PHONY : MINLP/Power/SDPOPF/Bag.cpp.i
 
 MINLP/Power/SDPOPF/Bag.s: MINLP/Power/SDPOPF/Bag.cpp.s
@@ -945,7 +945,7 @@ MINLP/Power/SDPOPF/Bag.s: MINLP/Power/SDPOPF/Bag.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/SDPOPF/Bag.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/Bag.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/Bag.cpp.s
 .PHONY : MINLP/Power/SDPOPF/Bag.cpp.s
 
 MINLP/Power/SDPOPF/SDPOPF_main.o: MINLP/Power/SDPOPF/SDPOPF_main.cpp.o
@@ -954,7 +954,7 @@ MINLP/Power/SDPOPF/SDPOPF_main.o: MINLP/Power/SDPOPF/SDPOPF_main.cpp.o
 
 # target to build an object file
 MINLP/Power/SDPOPF/SDPOPF_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/SDPOPF_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/SDPOPF_main.cpp.o
 .PHONY : MINLP/Power/SDPOPF/SDPOPF_main.cpp.o
 
 MINLP/Power/SDPOPF/SDPOPF_main.i: MINLP/Power/SDPOPF/SDPOPF_main.cpp.i
@@ -963,7 +963,7 @@ MINLP/Power/SDPOPF/SDPOPF_main.i: MINLP/Power/SDPOPF/SDPOPF_main.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/SDPOPF/SDPOPF_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/SDPOPF_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/SDPOPF_main.cpp.i
 .PHONY : MINLP/Power/SDPOPF/SDPOPF_main.cpp.i
 
 MINLP/Power/SDPOPF/SDPOPF_main.s: MINLP/Power/SDPOPF/SDPOPF_main.cpp.s
@@ -972,7 +972,7 @@ MINLP/Power/SDPOPF/SDPOPF_main.s: MINLP/Power/SDPOPF/SDPOPF_main.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/SDPOPF/SDPOPF_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/SDPOPF_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/sdpopf.dir/build.make examples/CMakeFiles/sdpopf.dir/MINLP/Power/SDPOPF/SDPOPF_main.cpp.s
 .PHONY : MINLP/Power/SDPOPF/SDPOPF_main.cpp.s
 
 MINLP/Power/SOCOPF/SOCOPF_main.o: MINLP/Power/SOCOPF/SOCOPF_main.cpp.o
@@ -981,7 +981,7 @@ MINLP/Power/SOCOPF/SOCOPF_main.o: MINLP/Power/SOCOPF/SOCOPF_main.cpp.o
 
 # target to build an object file
 MINLP/Power/SOCOPF/SOCOPF_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/SOCOPF/SOCOPF_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/SOCOPF/SOCOPF_main.cpp.o
 .PHONY : MINLP/Power/SOCOPF/SOCOPF_main.cpp.o
 
 MINLP/Power/SOCOPF/SOCOPF_main.i: MINLP/Power/SOCOPF/SOCOPF_main.cpp.i
@@ -990,7 +990,7 @@ MINLP/Power/SOCOPF/SOCOPF_main.i: MINLP/Power/SOCOPF/SOCOPF_main.cpp.i
 
 # target to preprocess a source file
 MINLP/Power/SOCOPF/SOCOPF_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/SOCOPF/SOCOPF_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/SOCOPF/SOCOPF_main.cpp.i
 .PHONY : MINLP/Power/SOCOPF/SOCOPF_main.cpp.i
 
 MINLP/Power/SOCOPF/SOCOPF_main.s: MINLP/Power/SOCOPF/SOCOPF_main.cpp.s
@@ -999,7 +999,7 @@ MINLP/Power/SOCOPF/SOCOPF_main.s: MINLP/Power/SOCOPF/SOCOPF_main.cpp.s
 
 # target to generate assembly for a file
 MINLP/Power/SOCOPF/SOCOPF_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/SOCOPF/SOCOPF_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/socopf.dir/build.make examples/CMakeFiles/socopf.dir/MINLP/Power/SOCOPF/SOCOPF_main.cpp.s
 .PHONY : MINLP/Power/SOCOPF/SOCOPF_main.cpp.s
 
 NLP/Ising/Ising_main.o: NLP/Ising/Ising_main.cpp.o
@@ -1008,7 +1008,7 @@ NLP/Ising/Ising_main.o: NLP/Ising/Ising_main.cpp.o
 
 # target to build an object file
 NLP/Ising/Ising_main.cpp.o:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/NLP/Ising/Ising_main.cpp.o
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/NLP/Ising/Ising_main.cpp.o
 .PHONY : NLP/Ising/Ising_main.cpp.o
 
 NLP/Ising/Ising_main.i: NLP/Ising/Ising_main.cpp.i
@@ -1017,7 +1017,7 @@ NLP/Ising/Ising_main.i: NLP/Ising/Ising_main.cpp.i
 
 # target to preprocess a source file
 NLP/Ising/Ising_main.cpp.i:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/NLP/Ising/Ising_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/NLP/Ising/Ising_main.cpp.i
 .PHONY : NLP/Ising/Ising_main.cpp.i
 
 NLP/Ising/Ising_main.s: NLP/Ising/Ising_main.cpp.s
@@ -1026,7 +1026,7 @@ NLP/Ising/Ising_main.s: NLP/Ising/Ising_main.cpp.s
 
 # target to generate assembly for a file
 NLP/Ising/Ising_main.cpp.s:
-	cd /home/hlh/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/NLP/Ising/Ising_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build && $(MAKE) -f examples/CMakeFiles/ising.dir/build.make examples/CMakeFiles/ising.dir/NLP/Ising/Ising_main.cpp.s
 .PHONY : NLP/Ising/Ising_main.cpp.s
 
 # Help Target
@@ -1128,6 +1128,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hlh/private-gravity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hlh/GridOpt/private-gravity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

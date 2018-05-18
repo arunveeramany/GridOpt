@@ -1,4 +1,4 @@
-# Install script for directory: /home/hlh/private-gravity/examples
+# Install script for directory: /home/hlh/GridOpt/private-gravity/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

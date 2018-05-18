@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hlh/private-gravity/examples/Gravity101_main.cpp" "/home/hlh/private-gravity/build/examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.o"
+  "/home/hlh/GridOpt/private-gravity/examples/Gravity101_main.cpp" "/home/hlh/GridOpt/private-gravity/build/examples/CMakeFiles/gravity101.dir/Gravity101_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hlh/private-gravity/build/src/CMakeFiles/gravity.dir/DependInfo.cmake"
+  "/home/hlh/GridOpt/private-gravity/build/src/CMakeFiles/gravity.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

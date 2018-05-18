@@ -43,10 +43,10 @@ RM = /projects/opt/centos7/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hlh/private-gravity
+CMAKE_SOURCE_DIR = /home/hlh/GridOpt/private-gravity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hlh/private-gravity/build
+CMAKE_BINARY_DIR = /home/hlh/GridOpt/private-gravity/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/neuralnet.dir/depend.make
@@ -59,29 +59,29 @@ include examples/CMakeFiles/neuralnet.dir/flags.make
 
 examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o: examples/CMakeFiles/neuralnet.dir/flags.make
 examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o: ../examples/Classification/DataSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o -c /home/hlh/private-gravity/examples/Classification/DataSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.o -c /home/hlh/GridOpt/private-gravity/examples/Classification/DataSet.cpp
 
 examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.i"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/examples/Classification/DataSet.cpp > CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/examples/Classification/DataSet.cpp > CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.i
 
 examples/CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.s"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/examples/Classification/DataSet.cpp -o CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/examples/Classification/DataSet.cpp -o CMakeFiles/neuralnet.dir/Classification/DataSet.cpp.s
 
 examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o: examples/CMakeFiles/neuralnet.dir/flags.make
 examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o: ../examples/Classification/NeuralNet/NeuralNet_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o -c /home/hlh/private-gravity/examples/Classification/NeuralNet/NeuralNet_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o"
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.o -c /home/hlh/GridOpt/private-gravity/examples/Classification/NeuralNet/NeuralNet_main.cpp
 
 examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.i"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/private-gravity/examples/Classification/NeuralNet/NeuralNet_main.cpp > CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.i
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlh/GridOpt/private-gravity/examples/Classification/NeuralNet/NeuralNet_main.cpp > CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.i
 
 examples/CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.s"
-	cd /home/hlh/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/private-gravity/examples/Classification/NeuralNet/NeuralNet_main.cpp -o CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.s
+	cd /home/hlh/GridOpt/private-gravity/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlh/GridOpt/private-gravity/examples/Classification/NeuralNet/NeuralNet_main.cpp -o CMakeFiles/neuralnet.dir/Classification/NeuralNet/NeuralNet_main.cpp.s
 
 # Object files for target neuralnet
 neuralnet_OBJECTS = \
@@ -97,8 +97,8 @@ neuralnet_EXTERNAL_OBJECTS =
 ../bin/neuralnet: ../lib/libgravity.a
 ../bin/neuralnet: ../ext_lib/CoinIpopt/build/lib/libipopt.so
 ../bin/neuralnet: examples/CMakeFiles/neuralnet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlh/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/neuralnet"
-	cd /home/hlh/private-gravity/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neuralnet.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlh/GridOpt/private-gravity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/neuralnet"
+	cd /home/hlh/GridOpt/private-gravity/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neuralnet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/neuralnet.dir/build: ../bin/neuralnet
@@ -106,10 +106,10 @@ examples/CMakeFiles/neuralnet.dir/build: ../bin/neuralnet
 .PHONY : examples/CMakeFiles/neuralnet.dir/build
 
 examples/CMakeFiles/neuralnet.dir/clean:
-	cd /home/hlh/private-gravity/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/neuralnet.dir/cmake_clean.cmake
+	cd /home/hlh/GridOpt/private-gravity/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/neuralnet.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/neuralnet.dir/clean
 
 examples/CMakeFiles/neuralnet.dir/depend:
-	cd /home/hlh/private-gravity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlh/private-gravity /home/hlh/private-gravity/examples /home/hlh/private-gravity/build /home/hlh/private-gravity/build/examples /home/hlh/private-gravity/build/examples/CMakeFiles/neuralnet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hlh/GridOpt/private-gravity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlh/GridOpt/private-gravity /home/hlh/GridOpt/private-gravity/examples /home/hlh/GridOpt/private-gravity/build /home/hlh/GridOpt/private-gravity/build/examples /home/hlh/GridOpt/private-gravity/build/examples/CMakeFiles/neuralnet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/neuralnet.dir/depend
 

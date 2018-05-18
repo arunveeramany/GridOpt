@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DUSE_IPOPT
 
-CXX_INCLUDES = -I/home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin/.. -I/home/hlh/private-gravity/ext_lib/armadillo-8.100.0 -I/home/hlh/private-gravity/ext_lib/cpp_option_parser 
+CXX_INCLUDES = -I/home/hlh/GridOpt/private-gravity/ext_lib/CoinIpopt/build/include/coin/.. -I/home/hlh/GridOpt/private-gravity/ext_lib/armadillo-8.100.0 -I/home/hlh/GridOpt/private-gravity/ext_lib/cpp_option_parser 
 

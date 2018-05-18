@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -lpthread -O3 -DNDEBUG -Ofast
 
 CXX_DEFINES = -DUSE_IPOPT
 
-CXX_INCLUDES = -I/home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin/.. -I/home/hlh/private-gravity/ext_lib/armadillo-8.100.0 -I/home/hlh/private-gravity/ext_lib/cpp_option_parser -I/home/hlh/private-gravity/examples/MINLP/Power -I/home/hlh/private-gravity/include 
+CXX_INCLUDES = -I/home/hlh/GridOpt/private-gravity/ext_lib/CoinIpopt/build/include/coin/.. -I/home/hlh/GridOpt/private-gravity/ext_lib/armadillo-8.100.0 -I/home/hlh/GridOpt/private-gravity/ext_lib/cpp_option_parser -I/home/hlh/GridOpt/private-gravity/examples/MINLP/Power -I/home/hlh/GridOpt/private-gravity/include 
 
