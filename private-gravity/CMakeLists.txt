@@ -158,7 +158,7 @@ add_subdirectory(src)
 add_subdirectory(examples)
 SET(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 # for all binaries created in a CMake project:
-SET(CMAKE_INSTALL_RPATH "$ORIGIN/../lib:$ORIGIN/")
+SET(CMAKE_INSTALL_RPATH "\\\$ORIGIN/../lib:$ORIGIN/")
 
 # Install
 install(FILES ${PROJECT_BINARY_DIR}/PowerToolsConfig.h DESTINATION include/gravity)
