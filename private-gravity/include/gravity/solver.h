@@ -34,7 +34,7 @@
 namespace gravity {
     class solver {
     public:
-        Model*                         _model = nullptr;
+        gravity::Model*                         _model = nullptr;
         Program*                       _prog = nullptr;
         SolverType                     _stype;        
         double                         _tol = 1e-6; /*<< Solver tolerance. */
@@ -43,9 +43,9 @@ namespace gravity {
         //@{
         solver();
 
-        solver(Model& model, SolverType stype);
+        solver(gravity::Model& model, SolverType stype);
         //@}
-        void set_model(Model& m);
+        void set_model(gravity::Model& m);
         
         /* Destructor */
         ~solver();
@@ -57,5 +57,5 @@ namespace gravity {
     
 }
 
-void run_parallel(const vector<shared_ptr<Model>>& models, SolverType stype, double tol, unsigned nr_threads); /** < Runds models stored in the vector in parallel, using solver of stype and tolerance tol */
+void run_parallel(const vector<shared_ptr<gravity::Model>>& models, gravity::SolverType stype, double tol, unsigned nr_threads); /** < Runds models stored in the vector in parallel, using solver of stype and tolerance tol */
 #endif /* defined(__PowerTools____Solver__) */

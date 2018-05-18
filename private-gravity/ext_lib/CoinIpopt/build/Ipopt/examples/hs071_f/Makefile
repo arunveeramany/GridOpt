@@ -34,15 +34,15 @@ F77 = gfortran
 FFLAGS = -O3 -pipe  
 
 # additional Fortran Compiler options for linking
-F77LINKFLAGS =  -Wl,--rpath -Wl,/home/hlh/CoinIpopt/build/lib
+F77LINKFLAGS =  -Wl,--rpath -Wl,/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib
 
 # Include directories (we use the CYGPATH_W variables to allow compilation with Windows compilers)
-INCL = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` $(ADDINCFLAGS)
-#INCL = -I`$(CYGPATH_W) /home/hlh/CoinIpopt/build/include/coin`  $(ADDINCFLAGS)
+INCL = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` $(ADDINCFLAGS)
+#INCL = -I`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin`  $(ADDINCFLAGS)
 
 # Linker flags
-LIBS = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt` -lstdc++ -lm
-#LIBS = -L/home/hlh/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl -lstdc++ -lm
+LIBS = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt` -lstdc++ -lm
+#LIBS = -L/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl -lstdc++ -lm
 
 # The following is necessary under cygwin, if native compilers are used
 CYGPATH_W = echo

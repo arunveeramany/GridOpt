@@ -44,7 +44,7 @@ available_tags=" CXX F77"
 
 # ### BEGIN LIBTOOL CONFIG
 
-# Libtool was configured on host darwin-fe1.lanl.gov:
+# Libtool was configured on host darwin-fe2.lanl.gov:
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/sh"
@@ -53,7 +53,7 @@ SHELL="/bin/sh"
 build_libtool_libs=yes
 
 # Whether or not to build static libraries.
-build_old_libs=no
+build_old_libs=yes
 
 # Whether or not to add -lc for building shared libraries.
 build_libtool_need_lc=no
@@ -325,10 +325,10 @@ variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COM
 link_all_deplibs=unknown
 
 # Compile-time system search path for libraries
-sys_lib_search_path_spec=" /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/../lib64/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/ /lib/x86_64-unknown-linux-gnu/5.4.0/ /lib/../lib64/ /usr/lib/x86_64-unknown-linux-gnu/5.4.0/ /usr/lib/../lib64/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../ /lib/ /usr/lib/"
+sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/../lib64/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ /lib/x86_64-redhat-linux/4.8.5/ /lib/../lib64/ /usr/lib/x86_64-redhat-linux/4.8.5/ /usr/lib/../lib64/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ /lib/ /usr/lib/"
 
 # Run-time system search path for libraries
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib64/R/lib /usr/lib64/atlas /usr/lib64/dyninst hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg /usr/lib64/iscsi /usr/lib64/cmpi /usr/lib64/mysql /usr/lib64/octave/3.8.2 /usr/lib64/qt-3.3/lib /usr/lib64 /usr/lib64/slurm /usr/lib64/tcl8.5 "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib64/R/lib /usr/lib64/atlas /usr/lib64/dyninst hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg /usr/lib64/iscsi /usr/lib64/cmpi /usr/lib64/mysql /usr/lib64/octave/3.8.2 /usr/lib64/qt-3.3/lib /usr/lib64/tcl8.5 /usr/lib64/wine/ "
 
 # Fix the shell variable $srcfile for the compiler.
 fix_srcfile_path=""
@@ -7215,7 +7215,7 @@ disable_libs=static
 # End:
 # ### BEGIN LIBTOOL TAG CONFIG: CXX
 
-# Libtool was configured on host darwin-fe1.lanl.gov:
+# Libtool was configured on host darwin-fe2.lanl.gov:
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/sh"
@@ -7224,7 +7224,7 @@ SHELL="/bin/sh"
 build_libtool_libs=yes
 
 # Whether or not to build static libraries.
-build_old_libs=no
+build_old_libs=yes
 
 # Whether or not to add -lc for building shared libraries.
 build_libtool_need_lc=no
@@ -7397,11 +7397,11 @@ striplib="strip --strip-unneeded"
 
 # Dependencies to place before the objects being linked to create a
 # shared library.
-predep_objects="/lib/../lib64/crti.o /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbeginS.o"
+predep_objects="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o"
 
 # Dependencies to place after the objects being linked to create a
 # shared library.
-postdep_objects="/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtendS.o /lib/../lib64/crtn.o"
+postdep_objects="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o"
 
 # Dependencies to place before the objects being linked to create a
 # shared library.
@@ -7413,7 +7413,7 @@ postdeps="-lstdc++ -lm -lgcc_s -lc -lgcc_s"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.."
+compiler_lib_search_path="-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.."
 
 # Method to check whether dependent libraries are shared objects.
 deplibs_check_method="pass_all"
@@ -7493,10 +7493,10 @@ variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COM
 link_all_deplibs=unknown
 
 # Compile-time system search path for libraries
-sys_lib_search_path_spec=" /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/../lib64/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/ /lib/x86_64-unknown-linux-gnu/5.4.0/ /lib/../lib64/ /usr/lib/x86_64-unknown-linux-gnu/5.4.0/ /usr/lib/../lib64/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../ /lib/ /usr/lib/"
+sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/../lib64/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ /lib/x86_64-redhat-linux/4.8.5/ /lib/../lib64/ /usr/lib/x86_64-redhat-linux/4.8.5/ /usr/lib/../lib64/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ /lib/ /usr/lib/"
 
 # Run-time system search path for libraries
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib64/R/lib /usr/lib64/atlas /usr/lib64/dyninst hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg /usr/lib64/iscsi /usr/lib64/cmpi /usr/lib64/mysql /usr/lib64/octave/3.8.2 /usr/lib64/qt-3.3/lib /usr/lib64 /usr/lib64/slurm /usr/lib64/tcl8.5 "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib64/R/lib /usr/lib64/atlas /usr/lib64/dyninst hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg /usr/lib64/iscsi /usr/lib64/cmpi /usr/lib64/mysql /usr/lib64/octave/3.8.2 /usr/lib64/qt-3.3/lib /usr/lib64/tcl8.5 /usr/lib64/wine/ "
 
 # Fix the shell variable $srcfile for the compiler.
 fix_srcfile_path=""
@@ -7520,7 +7520,7 @@ include_expsyms=""
 
 # ### BEGIN LIBTOOL TAG CONFIG: F77
 
-# Libtool was configured on host darwin-fe1.lanl.gov:
+# Libtool was configured on host darwin-fe2.lanl.gov:
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/sh"
@@ -7529,7 +7529,7 @@ SHELL="/bin/sh"
 build_libtool_libs=yes
 
 # Whether or not to build static libraries.
-build_old_libs=no
+build_old_libs=yes
 
 # Whether or not to add -lc for building shared libraries.
 build_libtool_need_lc=no
@@ -7801,10 +7801,10 @@ variables_saved_for_relink="PATH LD_LIBRARY_PATH LD_RUN_PATH GCC_EXEC_PREFIX COM
 link_all_deplibs=unknown
 
 # Compile-time system search path for libraries
-sys_lib_search_path_spec=" /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/../lib64/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../x86_64-unknown-linux-gnu/5.4.0/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/ /lib/x86_64-unknown-linux-gnu/5.4.0/ /lib/../lib64/ /usr/lib/x86_64-unknown-linux-gnu/5.4.0/ /usr/lib/../lib64/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/lib/ /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../ /lib/ /usr/lib/"
+sys_lib_search_path_spec=" /usr/lib/gcc/x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/../lib64/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../x86_64-redhat-linux/4.8.5/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/ /lib/x86_64-redhat-linux/4.8.5/ /lib/../lib64/ /usr/lib/x86_64-redhat-linux/4.8.5/ /usr/lib/../lib64/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/lib/ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../ /lib/ /usr/lib/"
 
 # Run-time system search path for libraries
-sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib64/R/lib /usr/lib64/atlas /usr/lib64/dyninst hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg /usr/lib64/iscsi /usr/lib64/cmpi /usr/lib64/mysql /usr/lib64/octave/3.8.2 /usr/lib64/qt-3.3/lib /usr/lib64 /usr/lib64/slurm /usr/lib64/tcl8.5 "
+sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib64/R/lib /usr/lib64/atlas /usr/lib64/dyninst hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg hwcap 1 nosegneg /usr/lib64/iscsi /usr/lib64/cmpi /usr/lib64/mysql /usr/lib64/octave/3.8.2 /usr/lib64/qt-3.3/lib /usr/lib64/tcl8.5 /usr/lib64/wine/ "
 
 # Fix the shell variable $srcfile for the compiler.
 fix_srcfile_path=""

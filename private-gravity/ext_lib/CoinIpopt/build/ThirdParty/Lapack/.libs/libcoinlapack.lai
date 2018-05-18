@@ -11,7 +11,7 @@ dlname='libcoinlapack.so.0'
 library_names='libcoinlapack.so.0.0.0 libcoinlapack.so.0 libcoinlapack.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libcoinlapack.a'
 
 # Libraries that this one depends upon.
 dependency_libs=' -lblas'
@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hlh/CoinIpopt/build/lib'
+libdir='/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib'

@@ -11,7 +11,7 @@ dlname='libcoinasl.so.0'
 library_names='libcoinasl.so.0.0.0 libcoinasl.so.0 libcoinasl.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libcoinasl.a'
 
 # Libraries that this one depends upon.
 dependency_libs=' -lm -ldl'
@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hlh/CoinIpopt/build/lib'
+libdir='/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib'

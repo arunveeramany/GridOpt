@@ -11,7 +11,7 @@ dlname='libcoinmetis.so.0'
 library_names='libcoinmetis.so.0.0.0 libcoinmetis.so.0 libcoinmetis.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libcoinmetis.a'
 
 # Libraries that this one depends upon.
 dependency_libs=' -lm'
@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hlh/CoinIpopt/build/lib'
+libdir='/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib'

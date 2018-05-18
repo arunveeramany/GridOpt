@@ -42,16 +42,16 @@ CXXFLAGS = `echo -O3 -pipe -DNDEBUG -Wparentheses -Wreturn-type -Wcast-qual -Wal
 # additional C++ Compiler options for linking
 # NOTE: it has been reported, that adding -Wl,--add-stdcall-alias to the
 #       LINKFLAGS might be necessary with mingw/gcc
-LINKFLAGS = $(CXXFLAGS)  -Wl,--rpath -Wl,/home/hlh/CoinIpopt/build/lib -shared
+LINKFLAGS = $(CXXFLAGS)  -Wl,--rpath -Wl,/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -shared
 
 # Include directories (we use the CYGPATH_W variables to allow compilation with Windows compilers)
-INCL = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` -I`$(CYGPATH_W) $(JAVA_HOME)/include` -I`$(CYGPATH_W) $(JAVA_HOME)/include/win32` -I.
-#INCL = -I`$(CYGPATH_W) /home/hlh/CoinIpopt/build/include/coin`  -I`$(CYGPATH_W) $(JAVA_HOME)/include` -I`$(CYGPATH_W) $(JAVA_HOME)/include/win32` -I.
+INCL = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` -I`$(CYGPATH_W) $(JAVA_HOME)/include` -I`$(CYGPATH_W) $(JAVA_HOME)/include/win32` -I.
+#INCL = -I`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin`  -I`$(CYGPATH_W) $(JAVA_HOME)/include` -I`$(CYGPATH_W) $(JAVA_HOME)/include/win32` -I.
 
 # Linker flags
-LIBS = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt`
-##LIBS = -link -libpath:`$(CYGPATH_W) /home/hlh/CoinIpopt/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
-#LIBS = -L/home/hlh/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl
+LIBS = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt`
+##LIBS = -link -libpath:`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
+#LIBS = -L/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl
 
 # The following is necessary under cygwin, if native compilers are used
 CYGPATH_W = echo

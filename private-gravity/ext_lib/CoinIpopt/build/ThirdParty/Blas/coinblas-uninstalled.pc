@@ -1,9 +1,9 @@
-prefix=/home/hlh/CoinIpopt/build
-libdir=/home/hlh/CoinIpopt/build/ThirdParty/Blas
+prefix=/home/hlh/private-gravity/ext_lib/CoinIpopt/build
+libdir=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/ThirdParty/Blas
 
 Name: Blas
 Description: Basic linear algebra package
 URL: https://projects.coin-or.org/BuildTools
 Version: 1.4
-Libs: ${libdir}/libcoinblas.la  -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. -lgfortran -lm -lquadmath
+Libs: ${libdir}/libcoinblas.la  -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lgfortran -lm -lquadmath
 Cflags:

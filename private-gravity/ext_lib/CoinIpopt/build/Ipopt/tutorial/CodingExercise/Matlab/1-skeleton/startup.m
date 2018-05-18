@@ -1,1 +1,1 @@
-addpath /home/hlh/CoinIpopt/build/lib
+addpath /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib

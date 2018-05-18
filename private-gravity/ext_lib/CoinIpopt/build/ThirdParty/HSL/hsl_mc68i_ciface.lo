@@ -8,5 +8,5 @@
 pic_object='.libs/hsl_mc68i_ciface.o'
 
 # Name of the non-PIC object.
-non_pic_object=none
+non_pic_object='hsl_mc68i_ciface.o'
 

@@ -36,16 +36,16 @@ CXX = g++
 CXXFLAGS = -O3 -pipe -DNDEBUG -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpointer-arith -Wwrite-strings -Wconversion -Wno-unknown-pragmas -Wno-long-long   -DIPOPT_BUILD
 
 # additional C++ Compiler options for linking
-CXXLINKFLAGS =  -Wl,--rpath -Wl,/home/hlh/CoinIpopt/build/lib
+CXXLINKFLAGS =  -Wl,--rpath -Wl,/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib
 
 # Include directories (we use the CYGPATH_W variables to allow compilation with Windows compilers)
-INCL = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` $(ADDINCFLAGS)
-#INCL = -I`$(CYGPATH_W) /home/hlh/CoinIpopt/build/include/coin`  $(ADDINCFLAGS)
+INCL = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` $(ADDINCFLAGS)
+#INCL = -I`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin`  $(ADDINCFLAGS)
 
 # Linker flags
-LIBS = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt`
-##LIBS = -link -libpath:`$(CYGPATH_W) /home/hlh/CoinIpopt/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
-#LIBS = -L/home/hlh/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl
+LIBS = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt`
+##LIBS = -link -libpath:`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
+#LIBS = -L/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl
 
 # The following is necessary under cygwin, if native compilers are used
 CYGPATH_W = echo

@@ -13,7 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gravity.dir/utils.cpp.o"
   "CMakeFiles/gravity.dir/var.cpp.o"
   "../../lib/libgravity.pdb"
-  "../../lib/libgravity.so"
+  "../../lib/libgravity.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -11,10 +11,10 @@ dlname='libipoptamplinterface.so.0'
 library_names='libipoptamplinterface.so.0.0.0 libipoptamplinterface.so.0 libipoptamplinterface.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libipoptamplinterface.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/hlh/CoinIpopt/build/Ipopt/src/Interfaces/libipopt.la /home/hlh/CoinIpopt/build/ThirdParty/HSL/libcoinhsl.la /home/hlh/CoinIpopt/build/ThirdParty/Metis/libcoinmetis.la /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/libgfortran.la /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libquadmath.la /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/libquadmath.la -llapack -lblas /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/libstdc++.la /home/hlh/CoinIpopt/build/ThirdParty/ASL/libcoinasl.la -ldl /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64//libstdc++.la  '
+dependency_libs=' /home/hlh/private-gravity/ext_lib/CoinIpopt/build/Ipopt/src/Interfaces/libipopt.la /home/hlh/private-gravity/ext_lib/CoinIpopt/build/ThirdParty/HSL/libcoinhsl.la /home/hlh/private-gravity/ext_lib/CoinIpopt/build/ThirdParty/Metis/libcoinmetis.la -lgfortran -lquadmath -llapack -lblas /home/hlh/private-gravity/ext_lib/CoinIpopt/build/ThirdParty/ASL/libcoinasl.la -ldl  '
 
 # Version information for libipoptamplinterface.
 current=0
@@ -32,5 +32,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hlh/CoinIpopt/build/lib'
-relink_command="(cd /home/hlh/CoinIpopt/build/Ipopt/src/Apps/AmplSolver; /bin/sh ../../../../libtool  --tag=CXX --mode=relink g++ -O3 -pipe -DNDEBUG -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpointer-arith -Wwrite-strings -Wconversion -Wno-unknown-pragmas -Wno-long-long -DIPOPT_BUILD -o libipoptamplinterface.la -rpath /home/hlh/CoinIpopt/build/lib -no-undefined AmplTNLP.lo ../../Interfaces/libipopt.la /home/hlh/CoinIpopt/build/ThirdParty/ASL/libcoinasl.la -lm -ldl @inst_prefix_dir@)"
+libdir='/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib'
+relink_command="(cd /home/hlh/private-gravity/ext_lib/CoinIpopt/build/Ipopt/src/Apps/AmplSolver; /bin/sh ../../../../libtool  --tag=CXX --mode=relink g++ -O3 -pipe -DNDEBUG -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpointer-arith -Wwrite-strings -Wconversion -Wno-unknown-pragmas -Wno-long-long -DIPOPT_BUILD -o libipoptamplinterface.la -rpath /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -no-undefined AmplTNLP.lo ../../Interfaces/libipopt.la /home/hlh/private-gravity/ext_lib/CoinIpopt/build/ThirdParty/ASL/libcoinasl.la -lm -ldl @inst_prefix_dir@)"

@@ -11,10 +11,10 @@ dlname='libipoptamplinterface.so.0'
 library_names='libipoptamplinterface.so.0.0.0 libipoptamplinterface.so.0 libipoptamplinterface.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libipoptamplinterface.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/hlh/CoinIpopt/build/lib/libipopt.la /home/hlh/CoinIpopt/build/lib/libcoinhsl.la /home/hlh/CoinIpopt/build/lib/libcoinmetis.la /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libgfortran.la /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libquadmath.la /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libquadmath.la -llapack -lblas /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libstdc++.la /home/hlh/CoinIpopt/build/lib/libcoinasl.la -ldl /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libstdc++.la'
+dependency_libs=' /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/libipopt.la /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/libcoinhsl.la /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/libcoinmetis.la -lgfortran -lquadmath -llapack -lblas /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/libcoinasl.la -ldl'
 
 # Version information for libipoptamplinterface.
 current=0
@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hlh/CoinIpopt/build/lib'
+libdir='/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib'

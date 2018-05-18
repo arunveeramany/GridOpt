@@ -1,1 +1,1 @@
-/home/hlh/CoinIpopt/Ipopt/tutorial/AmplExperiments/hs71.mod
+/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/tutorial/AmplExperiments/hs71.mod

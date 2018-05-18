@@ -8,5 +8,5 @@
 pic_object='.libs/ipoma.o'
 
 # Name of the non-PIC object.
-non_pic_object=none
+non_pic_object='ipoma.o'
 

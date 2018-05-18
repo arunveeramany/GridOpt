@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/armadillo.dir/src/wrapper.cpp.o"
   "libarmadillo.pdb"
-  "libarmadillo.so"
   "libarmadillo.so.8.100.0"
+  "libarmadillo.so"
   "libarmadillo.so.8"
 )
 

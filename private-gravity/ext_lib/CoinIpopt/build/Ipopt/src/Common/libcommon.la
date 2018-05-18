@@ -14,12 +14,12 @@ library_names=''
 old_library='libcommon.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64//libstdc++.la'
+dependency_libs=''
 
 # Version information for libcommon.
-current=6
-age=0
-revision=21
+current=
+age=
+revision=
 
 # Is this an already installed library?
 installed=no

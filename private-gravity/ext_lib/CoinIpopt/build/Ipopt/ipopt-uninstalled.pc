@@ -1,10 +1,10 @@
-prefix=/home/hlh/CoinIpopt/build
-libdir=/home/hlh/CoinIpopt/build/Ipopt/src/Interfaces
+prefix=/home/hlh/private-gravity/ext_lib/CoinIpopt/build
+libdir=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/Ipopt/src/Interfaces
 
 Name: IPOPT
 Description: Interior Point Optimizer
 URL: https://projects.coin-or.org/Ipopt
 Version: 3.12
 Libs: ${libdir}/libipopt.la -llapack -lblas -lm  -ldl
-Cflags: -I/home/hlh/CoinIpopt/Ipopt/src/Interfaces -I/home/hlh/CoinIpopt/Ipopt/src/Common -I/home/hlh/CoinIpopt/Ipopt/src/LinAlg -I/home/hlh/CoinIpopt/Ipopt/src/Algorithm -I/home/hlh/CoinIpopt/Ipopt/src/contrib/CGPenalty -I/home/hlh/CoinIpopt/Ipopt/src/contrib/LinearSolverLoader -I/home/hlh/CoinIpopt/build/Ipopt/src/Common
+Cflags: -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/Interfaces -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/Common -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/LinAlg -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/Algorithm -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/contrib/CGPenalty -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/contrib/LinearSolverLoader -I/home/hlh/private-gravity/ext_lib/CoinIpopt/build/Ipopt/src/Common
 Requires: coinhsl >= 1.3 

@@ -9,13 +9,13 @@ PardisoLoader.lo: \
  /usr/include/gnu/stubs-64.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h \
- /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
  /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/dlfcn.h \
  /usr/include/bits/dlfcn.h \
  ../../../../../Ipopt/src/contrib/LinearSolverLoader/PardisoLoader.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h \
- /projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
@@ -55,7 +55,7 @@ PardisoLoader.lo: \
 
 /usr/include/bits/typesizes.h:
 
-/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include/stddef.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
 
 /usr/include/bits/confname.h:
 
@@ -75,7 +75,7 @@ PardisoLoader.lo: \
 
 /usr/include/wchar.h:
 
-/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include/stdarg.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 

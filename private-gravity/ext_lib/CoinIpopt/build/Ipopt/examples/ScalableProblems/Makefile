@@ -17,18 +17,18 @@ CXXFLAGS = -O3 -pipe -DNDEBUG -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpo
 CXXAR = ar cru
 
 # additional C++ Compiler options for linking
-CXXLINKFLAGS =  -Wl,--rpath -Wl,/home/hlh/CoinIpopt/build/lib
+CXXLINKFLAGS =  -Wl,--rpath -Wl,/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib
 
 # Include directories (we use the CYGPATH_W variables to allow compilation with Windows compilers)
-INCL = `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` $(ADDINCFLAGS) -I. -DHAVE_CONFIG_H
-#INCL = -I`$(CYGPATH_W) /home/hlh/CoinIpopt/build/include/coin`  $(ADDINCFLAGS) -I. -DHAVE_CONFIG_H
+INCL = `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --cflags ipopt` $(ADDINCFLAGS) -I. -DHAVE_CONFIG_H
+#INCL = -I`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/include/coin`  $(ADDINCFLAGS) -I. -DHAVE_CONFIG_H
 
 LIB = libscalexamples.a
 
 # Linker flags
-LIBS = $(LIB) `PKG_CONFIG_PATH=/home/hlh/CoinIpopt/build/lib64/pkgconfig:/home/hlh/CoinIpopt/build/lib/pkgconfig:/home/hlh/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt`
-##LIBS = $(LIB) -link -libpath:`$(CYGPATH_W) /home/hlh/CoinIpopt/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
-#LIBS = $(LIB) -L/home/hlh/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl
+LIBS = $(LIB) `PKG_CONFIG_PATH=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib64/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/pkgconfig:/home/hlh/private-gravity/ext_lib/CoinIpopt/build/share/pkgconfig: pkg-config --libs ipopt`
+##LIBS = $(LIB) -link -libpath:`$(CYGPATH_W) /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
+#LIBS = $(LIB) -L/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -lipopt -llapack -lblas -lm  -ldl
 
 # Name of the executable
 EXE = solve_problem

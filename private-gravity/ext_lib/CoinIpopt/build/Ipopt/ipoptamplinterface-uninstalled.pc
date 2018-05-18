@@ -1,10 +1,10 @@
-prefix=/home/hlh/CoinIpopt/build
-libdir=/home/hlh/CoinIpopt/build/Ipopt/src/Apps/AmplSolver
+prefix=/home/hlh/private-gravity/ext_lib/CoinIpopt/build
+libdir=/home/hlh/private-gravity/ext_lib/CoinIpopt/build/Ipopt/src/Apps/AmplSolver
 
 Name: IPOPT
 Description: Ampl Interface TNLP to Ipopt
 URL: https://projects.coin-or.org/Ipopt
 Version: 3.12
 Libs: ${libdir}/libipoptamplinterface.la 
-Cflags: -I/home/hlh/CoinIpopt/Ipopt/src/Apps/AmplSolver
+Cflags: -I/home/hlh/private-gravity/ext_lib/CoinIpopt/Ipopt/src/Apps/AmplSolver
 Requires: ipopt coinasl 

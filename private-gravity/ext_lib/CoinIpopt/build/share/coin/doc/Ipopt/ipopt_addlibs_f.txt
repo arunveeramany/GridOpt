@@ -1,1 +1,1 @@
-          -L/home/hlh/CoinIpopt/build/lib -lipopt -ldl -lcoinhsl -llapack -lblas -lcoinmetis             -lstdc++ -lm
+         -L/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib -lipopt -ldl -lcoinhsl -llapack -lblas -lcoinmetis            -lstdc++ -lm

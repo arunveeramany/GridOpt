@@ -11,10 +11,10 @@ dlname='libcoinhsl.so.0'
 library_names='libcoinhsl.so.0.0.0 libcoinhsl.so.0 libcoinhsl.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libcoinhsl.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/hlh/CoinIpopt/build/lib/libcoinmetis.la -llapack -lblas -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/projects/opt/centos7/gcc/5.4.0/packages/gcc-5.4.0/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libgfortran.la /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libquadmath.la /projects/opt/centos7/gcc/5.4.0/lib/../lib64/libquadmath.la -lm'
+dependency_libs=' /home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib/libcoinmetis.la -llapack -lblas -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lgfortran -lm -lquadmath'
 
 # Version information for libcoinhsl.
 current=0
@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/hlh/CoinIpopt/build/lib'
+libdir='/home/hlh/private-gravity/ext_lib/CoinIpopt/build/lib'

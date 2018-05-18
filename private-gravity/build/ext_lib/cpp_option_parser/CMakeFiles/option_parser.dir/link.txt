@@ -1,1 +1,1 @@
-/projects/opt/centos7/gcc/8.1.0/bin/g++  -fPIC   -shared -Wl,-soname,liboption_parser.so -o liboption_parser.so CMakeFiles/option_parser.dir/optionParser.cpp.o 
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,liboption_parser.so -o liboption_parser.so CMakeFiles/option_parser.dir/optionParser.cpp.o 
